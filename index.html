@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Hub - Home</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <!-- <nav class="navbar">
+        <h1>Blue <span>Hub</span></h1>
+
+        <label for="nav-btn" class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input type="checkbox" id="nav-btn" />
+
+        <ul class="nav-links">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./job.html">Find Job</a></li>
+          <li><a href="./hire.html">Hire Workers</a></li>
+          <li><a href="./skill.html">Skill Hub</a></li>
+          <li><a href="./about.html">About Us</a></li>
+        </ul>
+      </nav> -->
+
+      <!-- <section class="search-box">        
+        <form class="search-bar">
+          <div class="input-wrapper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="      Search job keyword, location" required name="HomeKey" />
+          </div>
+        </form>
+      </section> -->
+
+
+      <nav class="navbar">
+        <!-- Left : Logo -->
+
+        <div class="nav-left">
+          <h1>Blue <span>Hub</span></h1>
+        </div>
+
+        <!-- Center: Search bar (desktop only) -->
+
+        <form class="nav-search-desktop">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search job keyword, location" />
+        </form>
+
+        <!-- Right: Search icon & hamburger icon (mobile only) -->
+
+
+
+        <!-- <div class="nav-icons">         -->
+
+        <div class="nav-search-icon">
+          <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
+          <input type="text" placeholder="Search.." />
+
+        </div>
+
+        <label for="nav-btn" class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <input type="checkbox" id="nav-btn" />
+
+        <!-- </div> -->
+
+        <!-- Right: Menu -->
+        <ul class="nav-links">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./find-job.html">Find Job</a></li>
+          <li><a href="./hire-workers.html">Hire Workers</a></li>
+          <li><a href="./skill-hub.html">Skill Hub</a></li>
+          <li><a href="./about-us.html">About Us</a></li>
+        </ul>
+
+
+
+      </nav>
+
+      <!-- <section class="search-box"> -->
+      <!-- <form class="search-bar">
+          
+                    <input type="text" placeholder="search job keyword, location" required name="HomeKey" />
+          <button type="submit">Search</button>
+        </form> -->
+      <!-- <form class="search-bar">
+          <div class="input-wrapper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="     Search job keyword, location" required name="HomeKey" />
+          </div>
+          <button type="submit">Search</button>
+        </form> -->
+      <!-- <form class="search-bar">
+          <div class="input-wrapper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="      Search job keyword, location" required name="HomeKey" />
+          </div>
+        </form>
+      </section> -->
+
+      <div id="banner">
+        <div class="left_banner">
+          <h1>Connecting workers & Employers in One Place</h1>
+          <p>
+            Whether you're looking for work or need to hire local help — Blue Hub makes it fast, easy, and trusted.
+          </p>
+        </div>
+
+        <div class="right_banner">
+          <img src="./images/hero.png" alt="Hero Illustration" class="hero-img" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Highlights -->
+  <section class="info-highlights">
+    <div class="wrapper">
+      <div class="highlight-box">
+        <i class="fa-solid fa-certificate"></i>
+        <h3 >Get Certified</h3>
+        <p>Get Certified with skill courses<br>& quizzes</p>
+      </div>
+      <div class="highlight-box">
+        <i class="fa-solid fa-clipboard-check"></i>
+        <h3>Apply</h3>
+        <p>Easily find and apply to local job<br>opportunities</p>
+      </div>
+      <div class="highlight-box">
+        <i class="fa-solid fa-user-plus"></i>
+        <h3>Instant Hire</h3>
+        <p>Get hired quickly through one-click<br>applications & employer matches</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hire-find">
+
+
+
+    <!-- Toggle Buttons -->
+    <div class="user-toggle">
+      <button type="submit" class="toggle-btn active">Job Seekers</button>
+      <button type="submit" class="toggle-btn">For Employers</button>
+    </div>
+
+    <!-- Feature Section -->
+    <div class="wrapper">
+      <section class="feature-cards">
+        <div class="feature-card large">
+          <div class="feature-card-img">
+            <img src="./images/join-us.svg" alt="local jobs" />
+          </div>
+          <div class="feature-card-text">
+            <h3>Browse local jobs</h3>
+            <p>Search nearby jobs that match your skills and availability — no middlemen, no delays.</p>
+            <a href="#" class="primary-btn">Browse Jobs</a>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-card-img">
+              <img src="./images/f-certified.png" alt="certified" />
+            </div>
+            <div class="feature-card-text">
+              <h3>Get certified & upskill</h3>
+              <p>Get certified in trending job roles like Housekeeping, Gardening, Delivery</p>
+              <a href="#" class="primary-btn">Upskill Now</a>
+            </div>
+
+          </div>
+          <div class="feature-card">
+            <div class="feature-card-img">
+              <img src="./images/f-job.png" alt="One Click" />
+            </div>
+            <div class="feature-card-text">
+              <h3>Apply in one click</h3>
+              <p>Get certified in trending job roles like Housekeeping, Gardening, Delivery</p>
+              <a href="#" class="primary-btn">Apply Now</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Why Choose Section -->
+  <section class="why-choose">
+    <div class="wrapper">
+      <h2>Why Choose Blue Hub?</h2>
+      <p>A digital platform built to simplify job hunting and hiring - trusted by workers and businesses alike.</p>
+      <div class="reasons">
+        <div class="reason-box">
+          <img src="./images/verified.png" alt="Verified" />
+          <h4>Verified Job Listings</h4>
+          <p>All job posts and worker profiles go through a quick verification process to ensure authenticity and
+            safety.</p>
+        </div>
+        <div class="reason-box">
+          <img src="./images/certificate.png" alt="Free Skill" />
+          <h4>Free Skill Certifications</h4>
+          <p>Boost your profile and earn trust from employers with free, platform-recognized certifications.</p>
+        </div>
+        <div class="reason-box">
+          <img src="./images/click.png" alt="One Click" />
+          <h4>One-Click Applications</h4>
+          <p>Skip long forms. Apply to jobs instantly with your saved profile and resume — saving time and effort.</p>
+        </div>
+        <div class="reason-box">
+          <img src="./images/chat.png" alt="Smart Communication" />
+          <h4>Smart Communication</h4>
+          <p>Use in-app chat, interview scheduling, and notifications to stay connected — no missed updates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="wrapper">
+      <h2>Trusted by 20+ million customers around the world.</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="./images/user_1.jpeg" alt="Anitha" />
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <p>I found a housekeeping job in just one day! The certifications helped me stand out and get hired quickly.
+          </p>
+          <div class="testimonial-name">Anitha S - Job Seeker</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="./images/user_2.jpeg" alt="Rajesh" />
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <p>Posting a job on Blue Hub was simple. I hired two helpers the same evening. Zero commission, zero hassle!
+          </p>
+          <div class="testimonial-name">Rajesh P - Grocery Store Owner</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="./images/user_3.jpg" alt="Kumar" />
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+          <p>No more waiting at street corners. I now get jobs sent to my phone — and payments are on time!</p>
+          <div class="testimonial-name">Kumar M - Electrician</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+   <footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>Blue <span>Hub</span></h2>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./job.html">Jobs</a></li>
+            <li><a href="./skill.html">Skill Hub</a></li>
+            <li><a href="./hire.html">Hire Now</a></li>
+            <li><a href="./about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+919486408240" target="_blank">+91-94864 08240</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a
+              href="mailto:nithyas30072001@gmail.com" target="_blank">nithyas30072001@gmail.com</a></p>
+          <p><i class="fa-solid fa-location-dot"></i><a href="https://maps.app.goo.gl/eNavv5DZZDkEPpbL9" target="_blank">Virudhunagar,
+              Tamil Nadu, India</a></p>
+        </div>
+        <div class="footer-app">
+          <h4>Get the Blue Hub App</h4>
+          <p>For quick job access anytime, anywhere.</p>
+          <div class="store-buttons">
+            <a href="https://play.google.com/store/apps?hl=en" target="_blank"><img src="./images/g_play.png" alt="Google Play"></a>
+            <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="./images/app-store.png" alt="App Store"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 Blue Hub. All rights reserved.</p>
+        <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
