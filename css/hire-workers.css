@@ -172,6 +172,7 @@ background-color: var(--white);
 
 .worker-card img {
   width: 100%;
+  min-width: 211.1px;
   height: 160px;
   object-fit: cover;
   border-radius: 8px;
@@ -333,6 +334,15 @@ background-color: var(--white);
   }
 }
 
+@media screen and (max-width: 320px){
+  .worker-card img {
+    width: 100%;
+    min-width: 171px;
+    height: 120px;
+  }
+
+}
+
 /* 
 @media screen and (max-width: 1024px) {
   .banner {
@@ -399,3 +409,4 @@ background-color: var(--white);
     scroll-snap-align: start;
   }
 } */
+
